@@ -14,9 +14,8 @@ import re
 #Configuration
 ###############################################################################
 """
-On créé notre environement de travail. on utilise un chemin absolue car cela 
-fonctionne mieux sur mon ordinateur
-On a aussi remarquer que l'url etait toujours constitué de la même structure:
+On créé notre environement de travail.
+On a aussi remarqué que l'url etait toujours constitué de la même structure:
 https://www.thomann.fr/ + autre chose.html
 """
 Env_trav = ***
