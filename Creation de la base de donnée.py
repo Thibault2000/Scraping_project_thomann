@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
 PROJET: Traitement et Analyse des données
-
-AUTEURS Thibault AZAIS & Thibault PHILIBERT
 Partie 2 Creation de la base de données
 """
 
@@ -15,7 +12,7 @@ import matplotlib.pyplot as plt
 ###############################################################################
 #configuartion
 ###############################################################################
-Env_trav = r"C:\Users\hp\Bureau\Pro\Cours Scholaire\fac\master\M2\M2 S1\Python\Projet de fin de cour\Traitement et Analyse des données\Data" 
+Env_trav = *** 
 os.chdir(Env_trav)
 
 
