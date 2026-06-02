@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
 PROJET: Traitement et Analyse des données
-
-AUTEURS Thibault AZAIS & Thibault PHILIBERT
 Partie 1: Extraction
 """
 import os
@@ -22,7 +19,7 @@ fonctionne mieux sur mon ordinateur
 On a aussi remarquer que l'url etait toujours constitué de la même structure:
 https://www.thomann.fr/ + autre chose.html
 """
-Env_trav = r'C:\Users\hp\Bureau\Pro\Cours Scholaire\fac\master\M2\M2 S1\Python\Projet de fin de cour\Traitement et Analyse des données\Data'
+Env_trav = ***
 os.chdir(Env_trav)
 
 
@@ -216,7 +213,7 @@ while Un_doc_cree_en_plus :
     if Un_doc_cree_en_plus :
         nombre_passage += 1
     else:
-        print("Partie 2 fini!!!!!!")
+        print("Partie 2 fini!")
         
 
 #3 recuperation de toute les données.
@@ -377,7 +374,7 @@ for root, dirs, files in os.walk(Env_trav):
             
         print(f" On a récupérer ({reussites}/{total_liens})")
 
-print(f"On a fini !!!!! Il y a {compteur_telechargement} fichiers téléchargés.")
+print(f"On a fini! Il y a {compteur_telechargement} fichiers téléchargés.")
 
 time.sleep(360)
 # on fait une pose de 10 min entre la fin de l'extraction de donnée et la correction 
